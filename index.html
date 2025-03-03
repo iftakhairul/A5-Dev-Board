@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    
     <title>DevBoard</title>
 </head>
 <body>
@@ -15,8 +14,10 @@
                 <H3> Dev<b>Board</b></H3>
             </div>
             <div id="header-logo-1">
-                <img src="assets/logo.png" alt="">
-                <H3> Dev<b>Board</b></H3>
+                <div>
+                    <img src="assets/checkbox.png" alt="">
+                    <span id="task-completed">20</span>
+                </div>
             </div>
         </div>
     </header>
@@ -26,10 +27,17 @@
         <div id="main-first">
             <div id="main-first-dashboard">
                 <div id="main-first-dashboard-first">
-                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-                    <label for="vehicle1"> I have a bike</label><br>
+                    <div>
+                        <img src="assets/checkbox.png" alt="">
+                    </div>
+                    <div>
+                        <span id="task-assigned">Task Assigned</span> <br>
+                        <span id="assigned-task"></span>
+                    </div>
+
+
                 </div>
-                <a href="">
+                <a href="blog.html">
                     <div id="main-first-dashboard-second">
                         <img src="assets/board.png" alt="">
                         <h3>Discover Somthing New Today!</h3>
@@ -37,7 +45,7 @@
                 </a>
                 <div id="main-first-dashboard-third">
                     <img src="assets/calender.png" alt="">
-                    <p id="date-container"></p>
+                    <p id="date"></p>
                     <script src="script.js"></script>
                 </div>
             </div>
@@ -46,153 +54,153 @@
             <div id="container">
                 <div class="grid">
                     <div>
-                        <p>ShopEase</p>
+                        <span  class="title">ShopEase</span>
                     </div>
                     <div>
-                        <h3>Fix Mobile Button Issue </h3>
+                        <h3 id="taskTitle-1">Fix Mobile Button Issue</h3>
                     </div>
                     <div>
                         <p>
-                            We Offer here fix your mobile with a effotable amount. We fix diffrent types of mobile such as iPhone, Samsong, Huwaei, Infinix, Honor.
+                            Yes, if your phone's power button is physically broken, it can often be fixed through repair or replacement. However, the feasibility of fixing it depends on the extent of the damage and the availability of replacement parts.
                         </p>
                         <br>
                     </div>
                     <hr>
                     <div class="task-complecation">
                         <div>
-                            <p>Deadline</p>
-                            <p>21 March 2025</p>
+                            <span>Deadline</span> <br>
+                            <span>21 March 2025</span>
                         </div>
                         <div>
-                            <button>Completed</button>
+                            <button class="complete-btn" data-task="taskTitle-1">Completed</button>
                         </div>
                     </div>
                 </div>
                 <!---->
                 <div class="grid">
                     <div>
-                        <p>ShopEase</p>
+                        <span  class="title">CloudSync</span>
                     </div>
                     <div>
-                        <h3>Fix Mobile Button Issue </h3>
+                        <h3 id="taskTitle-2">Add Dark Mode</h3>
                     </div>
                     <div>
                         <p>
-                            We Offer here fix your mobile with a effotable amount. We fix diffrent types of mobile such as iPhone, Samsong, Huwaei, Infinix, Honor.
+                            Dark mode not only provides an aesthetically pleasing alternative to the traditional light background but also offers significant benefits in terms of reducing eye strain, saving battery life on OLED and AMOLED screens, and accommodating user preferences at different times of the day.
                         </p>
                         <br>
                     </div>
                     <hr>
                     <div class="task-complecation">
                         <div>
-                            <p>Deadline</p>
-                            <p>21 March 2025</p>
+                            <span>Deadline</span> <br>
+                            <span>21 March 2025</span>
                         </div>
                         <div>
-                            <button>Completed</button>
+                            <button class="complete-btn" data-task="taskTitle-2">Completed</button>
                         </div>
                     </div>
                 </div>
                 <!---->
                 <div class="grid">
                     <div>
-                        <p>ShopEase</p>
+                        <span  class="title">SwiftPay</span>
                     </div>
                     <div>
-                        <h3>Fix Mobile Button Issue </h3>
+                        <h3 id="taskTitle-3">Optimize  Home page </h3>
                     </div>
                     <div>
                         <p>
-                            We Offer here fix your mobile with a effotable amount. We fix diffrent types of mobile such as iPhone, Samsong, Huwaei, Infinix, Honor.
+                            The goal of website optimization is to drive more traffic to a website, increase your number of conversions, and ultimately, increase revenue. All too often, marketers and website owners skip to other marketing strategies without ensuring that their company's website is fully optimized.
                         </p>
                         <br>
                     </div>
                     <hr>
                     <div class="task-complecation">
                         <div>
-                            <p>Deadline</p>
-                            <p>21 March 2025</p>
+                            <span>Deadline</span> <br>
+                            <span>21 March 2025</span>
                         </div>
                         <div>
-                            <button>Completed</button>
+                            <button class="complete-btn" data-task="taskTitle-3">Completed</button>
                         </div>
                     </div>
                 </div> 
                 <!----> 
                 <div class="grid">
                     <div>
-                        <p>ShopEase</p>
+                        <span  class="title">Meta</span>
                     </div>
                     <div>
-                        <h3>Fix Mobile Button Issue </h3>
+                        <h3 id="taskTitle-4">Add new emoji 🤲</h3>
                     </div>
                     <div>
                         <p>
-                            We Offer here fix your mobile with a effotable amount. We fix diffrent types of mobile such as iPhone, Samsong, Huwaei, Infinix, Honor.
+                            To add new emojis to your device, you can use the emoji keyboard in your messaging app. You can also create custom emojis in Google Chat or Gmail. If you want to create a new emoji for everyone to use, you can submit a proposal to Unicode
                         </p>
                         <br>
                     </div>
                     <hr>
                     <div class="task-complecation">
                         <div>
-                            <p>Deadline</p>
-                            <p>21 March 2025</p>
+                            <span>Deadline</span> <br>
+                            <span>21 March 2025</span>
                         </div>
                         <div>
-                            <button>Completed</button>
+                            <button class="complete-btn" data-task="taskTitle-4">Completed</button>
+                        </div>
+                    </div>
+                </div>               
+                <!---->
+                <div class="grid">
+                    <div>
+                        <span  class="title">Google LLC</span>
+                    </div>
+                    <div>
+                        <h3 id="taskTitle-5">Integrate OpenAI API</h3>
+                    </div>
+                    <div>
+                        <p>
+                            On the list of apps you will see "Google LLC". This is where Google stores account data and this is shared with all Google apps. Under Google LLC it says "Data shared by X apps"
+                        </p>
+                        <br>
+                    </div>
+                    <hr>
+                    <div class="task-complecation">
+                        <div>
+                            <span>Deadline</span> <br>
+                            <span>21 March 2025</span>
+                        </div>
+                        <div>
+                            <button class="complete-btn" data-task="taskTitle-5">Completed</button>
                         </div>
                     </div>
                 </div>
                 <!---->
                 <div class="grid">
                     <div>
-                        <p>ShopEase</p>
+                        <span  class="title">Glassdoar</span>
                     </div>
                     <div>
-                        <h3>Fix Mobile Button Issue </h3>
+                        <h3 id="taskTitle-6">Fix Mobile Button Issue</h3>
                     </div>
                     <div>
                         <p>
-                            We Offer here fix your mobile with a effotable amount. We fix diffrent types of mobile such as iPhone, Samsong, Huwaei, Infinix, Honor.
+                            Don't just look at reviews on the business's own website, or social media. Also look for reviews about the business on review platforms and other online forums. Check reviews from multiple sources. Be wary of fake reviews.
                         </p>
                         <br>
                     </div>
                     <hr>
                     <div class="task-complecation">
                         <div>
-                            <p>Deadline</p>
-                            <p>21 March 2025</p>
+                            <span>Deadline</span> <br>
+                            <span>21 March 2025</span>
                         </div>
                         <div>
-                            <button>Completed</button>
+                            <button class="complete-btn" data-task="taskTitle-6">Completed</button>
                         </div>
                     </div>
                 </div>
-                <!---->
-                <div class="grid">
-                    <div>
-                        <p>ShopEase</p>
-                    </div>
-                    <div>
-                        <h3>Fix Mobile Button Issue </h3>
-                    </div>
-                    <div>
-                        <p>
-                            We Offer here fix your mobile with a effotable amount. We fix diffrent types of mobile such as iPhone, Samsong, Huwaei, Infinix, Honor.
-                        </p>
-                        <br>
-                    </div>
-                    <hr>
-                    <div class="task-complecation">
-                        <div>
-                            <p>Deadline</p>
-                            <p>21 March 2025</p>
-                        </div>
-                        <div>
-                            <button>Completed</button>
-                        </div>
-                    </div>
-                </div> 
                 <!----> 
               </div>
         </div>
@@ -200,10 +208,15 @@
     <div id="notification">
         <div id="notification-first">
             <img src="assets/activity.png" alt="">
-            <h3>Acrivity log</h3>
+            <h3>Acrivity log</h3>            
         </div>
         <div id="notification-button">
-            <button>Clear History</button>
+            <button id="clearHistory">Clear History</button>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <p id="listofhistory"></p>
         </div>
     </div>
 </div>
